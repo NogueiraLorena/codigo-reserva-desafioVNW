@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #f66000;
+  color: #ffffff;
+  font-family: "Arial Narrow Bold", sans-serif;
+}
+
+.appTitles {
+  height: 48vh;
+  width: 55vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+h1 {
+  text-transform: UpperCase;
+  font-size: 8em;
+  font-weight: 20;
+}
+
+h2 {
+  font-weight: 8;
+  font-size: 4em;
+  position: relative;
+  bottom: 1.4em;
+}
+p {
+  font-weight: 3;
+  font-size: 4em;
+  position: relative;
+  top: 1.7em;
+  right: 2em;
+}
+
+.Con {
+  height: 80vh;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.appImages {
+  height: 51vh;
+  width: 66vw;
+  flex-wrap: wrap;
+  /* display: flex;
+  align-items: center; */
+}
+
+.ImgsFruits {
+  height: 19em;
+  width: 17rem;
+  position: relative;
+  top: 2;
+  left: -4em;
+}
+
+.appGrayImg {
+  background-color: #f7e0ce;
+  color: #1e1e1e;
+  border-radius: 25%;
+
+  height: 65vh;
+  width: 25vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+span {
+  height: 6vh;
+  width: 14vw;
+  background-color: #d3c5bb;
+  border-radius: 2em;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
